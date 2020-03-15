@@ -23,10 +23,34 @@ main
     display: table;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 8px 8px 12pxrgb(5, 5, 5, 0.5)
+    box-shadow: 8px 8px 12pxrgb(5, 5, 5, 0.5);
+    padding: 15px;
+    box-sizing: border-box;
+
 }
 
 .card .card-image
 {
-    border: 8px solid yellow;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.card .card-body 
+{
+    width: 100%;
+    display: table;
+    margin-top: 12px;
+}
+
+.card .card-body h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #9013fe;
+    margin: 0;
 }
