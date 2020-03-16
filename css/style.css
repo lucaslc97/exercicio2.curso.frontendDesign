@@ -15,6 +15,8 @@ main
 {
     width: 270px;
     display: table;
+    float: left; 
+    margin: 40px 40px 0 0;
 }
 
 .card
@@ -23,9 +25,10 @@ main
     display: table;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 8px 8px 12pxrgb(5, 5, 5, 0.5);
+    box-shadow: 8px 8px 12px rgb(5, 5, 5, 0.5);
     padding: 15px;
     box-sizing: border-box;
+    
 
 }
 
@@ -36,6 +39,12 @@ main
     height: auto;
     border-radius: 6px;
     display: block;
+
+}
+
+.card .card-image-top
+{
+    margin-top: -55px;
 }
 
 .card .card-body 
@@ -45,12 +54,56 @@ main
     margin-top: 12px;
 }
 
+.card .card-body p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4a4a4a;
+    font-weight: 800;
+    margin: 12px 0 12px 0;
+}
+
 .card .card-body h1
 {
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
     font-weight: 800;
     line-height: 24px;
     color: #9013fe;
     margin: 0;
+}
+
+
+.card .card-footer
+{
+    width: 100%;
+    display: table;
+}
+
+.card .card-footer .btn
+{
+    width: 100%;
+}
+
+/*Botões*/
+
+.btn 
+{
+    width: auto;
+    height: 40px;
+    margin-top: 12px;
+    display: inline-block;
+    background: #39e493;
+    color: white;
+    font: Arial;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
 }
